@@ -1,0 +1,178 @@
+\documentclass[11pt]{article}
+\include{header} % Download this file from physics.hmc.edu/motion/ page
+\usepackage{tikz}
+
+\usetikzlibrary{arrows,calc}
+                	\tikzset{%
+                         every picture/.style={>=stealth'},
+                                        vel/.style={->,line width=2pt,color=DarkBlue},
+                  force/.style={line width=1.5pt,color=blue,->},
+                  coord/.style={color=green!40!black,|->},
+                  accel/.style={->,line width=3pt,color=gray},
+                  photon/.style={line width=1.5pt,color=DarkRed,decorate,decoration={snake,post length=0.1in}},
+                  spring/.style={decorate,decoration={coil,aspect=0.3,segment length=2mm,amplitude=2mm}},
+                  traj/.style={dashed, color=gray, line width=1pt}
+                }
+                
+\usepackage{fullpage}
+\setlength{\parskip}{6pt}
+\setlength{\parindent}{0pt}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{marvosym}
+\usepackage{amssymb}
+\usepackage{wasysym}
+\usepackage{gensymb}
+\usepackage{mathrsfs}
+\usepackage{scrextend}
+\usepackage{mathtools}
+\usepackage{pgfplots}
+\usepackage{xspace}
+\usepackage[colorlinks]{hyperref}
+
+% --- style --- %
+\renewcommand{\labelenumi}{{ (\alph{enumi})}}
+\newcommand{\sand}{\quad \mbox{ and } \quad}
+%\newcommand{\ds}{\displaystyle}
+\allowdisplaybreaks
+
+% --- making \xi look less awful --- %
+\DeclareSymbolFont{CMletters}{OML}{cmm}{m}{it}
+\DeclareMathSymbol{\xi}{\mathord}{CMletters}{"18}
+
+% --- math --- %
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\Q}{\mathbb{Q}}
+
+
+\newcommand{\Lt}[1]{\mathcal{L}\crb{#1}}
+\newcommand{\ilt}[1]{\mathcal{L}^{-1}\crb{#1}}
+
+\newcommand{\pn}[1]{\left( #1 \right)}
+\newcommand{\sqb}[1]{\left[ #1 \right]}
+\newcommand{\crb}[1]{\left\{ #1 \right\}}
+\newcommand{\lra}[1]{\left\langle #1 \right\rangle}
+\newcommand{\magn}[1]{\left\lVert #1 \right\rVert}
+
+\newcommand{\pdr}[2]{\frac{\partial #1}{\partial #2}}
+\newcommand{\im}[1]{\text{im}\pn{#1}}
+\newcommand{\m}[1]{\Z/#1\Z}
+
+\DeclareMathOperator{\proj}{proj}
+\newcommand{\vectorproj}[2][]{\proj_{\VEC{#1}}\VEC{#2}}
+
+\newenvironment{amatrix}[1]{%
+  \left(\begin{array}{@{}*{#1}{c}|c@{}}
+}{%
+  \end{array}\right)
+}
+
+\newcommand{\spn}[1]{\text{span}\pn{#1}}
+
+\newcommand*\Heq{\ensuremath{\overset{\kern2pt H}{=}}}
+
+\newcommand{\distil}{\sqrt{1-v^2/c^2}}
+\newcommand{\distilf}[1]{\sqrt{1-(#1)^2}}
+\newcommand{\lorentz}{\frac{1}{\distil}}
+\newcommand{\lorentzf}[1]{\frac{1}{\sqrt{1-(#1)^2}}}
+
+\begin{document}
+
+\noindent{\large Problem Set 2, 17 September 2018\hfill Name: \underline{\hspace{3cm}} ,  Section: \underline{\hspace{5mm}} }
+\vspace*{0.25in}
+
+
+\begin{problem}[(P27.3)*]
+A small sphere whose mass $m$ is \val{1.12}{mg} carries a charge $q=\val{19.7}{nC}$. It hangs in the Earth's gravitational field from a silk thread that makes an
+angle $\theta = 27.4\degree$ with a large, uniformly, charged, nonconducting sheet as seen in the figure below. Calculate the uniform charge density $\sigma$ for the sheet.
+\begin{center}
+\includegraphics[scale=0.5]{prob1.png}
+\end{center}
+\end{problem}
+
+
+% Your solution starts here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textbf{Solution:}
+
+% Your solution ends here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\clearpage
+\begin{problem}[(E27.7)]
+A point charge $+q$ is a distance $d/2$ from a square surface of side $d$ and is directly above the center of a square, as shown in the figure below. Find the electric flux through
+the square. (Hint: Think of the square as one face of a cube with edge $d$.)
+\begin{center}
+\includegraphics[scale=0.75]{prob2.png}
+\end{center}
+\end{problem}
+
+
+% Your solution starts here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textbf{Solution:}
+
+% Your solution ends here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\clearpage
+
+\begin{problem}[(P27.16)]
+A plane slab of thickness $d$ has a uniform volume charge density $\rho$. Find the magnitude of the electric field at all points in space both (a) inside and (b) outside
+the slab, in terms of $x$, the distance measured from the median plane of the slab.
+\end{problem}
+
+
+% Your solution starts here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textbf{Solution:}
+
+% Your solution ends here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\clearpage
+
+\begin{problem}[(P27.17)]
+A solid nonconducting sphere of radius $R$ carries a nonuniform charge distribution, with charge density $\rho = \rho_S r/R$, where $\rho_S$ is a constant
+and $r$ is the distance from the center of the sphere. Show that (a) the total charge on the sphere is $Q = \pi\rho_S R^3$ and (b) the electric field inside the
+sphere is given by
+$$
+	E = \frac{1}{4\pi\epsilon_0} \frac{Q}{R^4} r^2.
+$$
+\end{problem}
+
+
+% Your solution starts here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textbf{Solution:}
+
+% Your solution ends here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\clearpage
+
+\begin{problem}[(P27.4)]
+The figure below shows a charge $+q$ arranged as a uniform conducting sphere of radius $a$ and placed at the center of a spherical conducting shell of inner radius $b$ and outer
+radius $c$. The outer shell carries a charge of $-q$. Find $E(r)$ at locations (a) within the sphere $(r<a)$, (b) between the sphere and the shell $(a<r<b)$, (c) inside the shell $(b<r<c)$, and (d) outside the shell $(r>c)$. (e) What charges appear on the inner and outer surfaces of the shell?
+\begin{center}
+\includegraphics[scale=0.6]{prob5.png}
+\end{center}
+\end{problem}
+
+
+% Your solution starts here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textbf{Solution:}
+
+% Your solution ends here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\clearpage
+
+\begin{problem}[\P (E29.29)]
+A 1-$\mu C$ point charge is embedded in the center of a solid Pyrex sphere of radius $R=\val{10}{cm}$. (a) Calculate the electric field strength $E$ just beneath the surface of the sphere. (b) Assuming that there are no other \textit{free} charges, calculate the strength of the electric field just outside the surface on the sphere. (c) What is the induced surface
+charge density $\sigma_{\text{ind}}$ on the surface of the Pyrex sphere?
+\end{problem}
+
+
+% Your solution starts here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textbf{Solution:}
+
+% Your solution ends here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\clearpage
+
+\end{document}
