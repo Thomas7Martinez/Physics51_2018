@@ -1,0 +1,137 @@
+\documentclass[11pt]{article}
+\include{header} % Download this file from physics.hmc.edu/motion/ page
+\usepackage{tikz}
+
+\usetikzlibrary{arrows,calc}
+                	\tikzset{%
+                         every picture/.style={>=stealth'},
+                                        vel/.style={->,line width=2pt,color=DarkBlue},
+                  force/.style={line width=1.5pt,color=blue,->},
+                  coord/.style={color=green!40!black,|->},
+                  accel/.style={->,line width=3pt,color=gray},
+                  photon/.style={line width=1.5pt,color=DarkRed,decorate,decoration={snake,post length=0.1in}},
+                  spring/.style={decorate,decoration={coil,aspect=0.3,segment length=2mm,amplitude=2mm}},
+                  traj/.style={dashed, color=gray, line width=1pt}
+                }
+                
+\usepackage{fullpage}
+\setlength{\parskip}{6pt}
+\setlength{\parindent}{0pt}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{marvosym}
+\usepackage{amssymb}
+\usepackage{wasysym}
+\usepackage{gensymb}
+\usepackage{mathrsfs}
+\usepackage{scrextend}
+\usepackage{mathtools}
+\usepackage{pgfplots}
+\usepackage{xspace}
+\usepackage[colorlinks]{hyperref}
+
+% --- style --- %
+\renewcommand{\labelenumi}{{ (\alph{enumi})}}
+\newcommand{\sand}{\quad \mbox{ and } \quad}
+\newcommand{\be}{\begin{enumerate}[a) ]}
+\newcommand{\ee}{\end{enumerate}}
+\def\bal#1\eal{\begin{align*}#1\end{align*}}
+\allowdisplaybreaks
+
+% --- making \xi look less awful --- %
+\DeclareSymbolFont{CMletters}{OML}{cmm}{m}{it}
+\DeclareMathSymbol{\xi}{\mathord}{CMletters}{"18}
+
+% --- math --- %
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\Q}{\mathbb{Q}}
+
+
+\newcommand{\Lt}[1]{\mathcal{L}\crb{#1}}
+\newcommand{\ilt}[1]{\mathcal{L}^{-1}\crb{#1}}
+
+\newcommand{\pn}[1]{\left( #1 \right)}
+\newcommand{\sqb}[1]{\left[ #1 \right]}
+\newcommand{\crb}[1]{\left\{ #1 \right\}}
+\newcommand{\lra}[1]{\left\langle #1 \right\rangle}
+\newcommand{\magn}[1]{\left\lVert #1 \right\rVert}
+
+\def\multiset#1#2{\ensuremath{\left(\kern-.3em\left(\genfrac{}{}{0pt}{}{#1}{#2}\right)\kern-.3em\right)}}
+
+\newcommand{\pdr}[2]{\frac{\partial #1}{\partial #2}}
+\newcommand{\im}[1]{\text{im}\pn{#1}}
+\newcommand{\m}[1]{\Z/#1\Z}
+
+
+\DeclareMathOperator{\proj}{proj}
+\newcommand{\vectorproj}[2][]{\proj_{\VEC{#1}}\VEC{#2}}
+
+\newenvironment{amatrix}[1]{%
+  \left(\begin{array}{@{}*{#1}{c}|c@{}}
+}{%
+  \end{array}\right)
+}
+
+\makeatletter
+\renewcommand*\env@matrix[1][*\c@MaxMatrixCols c]{%
+  \hskip -\arraycolsep
+  \let\@ifnextchar\new@ifnextchar
+  \array{#1}}
+\makeatother
+
+\newcommand{\spn}[1]{\text{span}\pn{#1}}
+
+\newcommand*\Heq{\ensuremath{\overset{\kern2pt H}{=}}}
+
+\newcommand{\distil}{\sqrt{1-v^2/c^2}}
+\newcommand{\distilf}[1]{\sqrt{1-(#1)^2}}
+\newcommand{\lorentz}{\frac{1}{\distil}}
+\newcommand{\lorentzf}[1]{\frac{1}{\sqrt{1-(#1)^2}}}
+
+
+\begin{document}
+
+\noindent{\large Problem Set 5, 8 October 2018\hfill Name: \underline{\hspace{3cm}} ,  Section: \underline{\hspace{5mm}} }
+\vspace*{0.25in}
+
+
+\begin{problem}[(P29.6)*]
+\be
+\item The current density across a cylindrical conductor of radius $R$ varies according to the equation
+\[
+	j = j_0(1-r/R),
+\]
+where $r$ is the distance from the axis. Thus the current density is a maximum $j_0$ at the axis $r=0$ and decreases linearly to zero at the surface $r=R$. Calculate
+the current in terms of $j_0$ and the conductor's cross-sectional area $A=\pi R^2$.
+\item Suppose that, instead, the current density is a maximum $j_0$ at the surface and decreases linearly to zero at the axis, so that
+\[
+	j = j_0r/R.
+\]
+Calculate the current. Why is the result different from (a)?
+\ee
+\end{problem}
+
+
+% Your solution starts here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textbf{Solution:}\\
+
+\clearpage
+% Your solution ends here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{problem}[(E31.47)]
+The figure below shows the circuit of a flashing lamp, like those attached to barrels at highway construction sites. The fluorescent lamp $L$ is connected in parallel across the capacitor $C$ of an $RC$ circuit. Current passes through the lamp only when the potential across it reaches the breakdown voltage $V_L$; in this event, the capacitor discharges through the lamp and it flashes for a very short time. Suppose that two flashes per second are needed. Using a lamp with breakdown voltage $V_L=\val{72}{V}$, a $95-$V battery, and a $0.15$-$\mu$F capacitor, what should be the resistance $R$ of the resistor?
+\begin{center}
+\includegraphics[scale=0.65]{prob2.png}
+\end{center}
+\end{problem}
+
+
+% Your solution starts here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textbf{Solution:}\\
+
+% Your solution ends here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\clearpage
+
+\end{document}

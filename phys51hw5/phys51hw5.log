@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.4)  4 OCT 2018 11:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.4)  4 OCT 2018 11:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**phys51hw4.tex
-(./phys51hw4.tex
+**phys51hw5.tex
+(./phys51hw5.tex
 LaTeX2e <2017-04-15>
 Babel <3.12> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
@@ -1421,55 +1421,55 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \symCMletters=\mathgroup10
 LaTeX Font Info:    Redeclaring math symbol \xi on input line 44.
 
-(./phys51hw4.aux)
-\openout1 = `phys51hw4.aux'.
+(./phys51hw5.aux)
+\openout1 = `phys51hw5.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 94.
-LaTeX Font Info:    Try loading font information for FML+futm on input line 94.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 95.
+LaTeX Font Info:    Try loading font information for FML+futm on input line 95.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/fourier/fmlfutm.fd
 File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
 )
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 94.
-LaTeX Font Info:    Try loading font information for FMS+futm on input line 94.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 95.
+LaTeX Font Info:    Try loading font information for FMS+futm on input line 95.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/fourier/fmsfutm.fd
 File: fmsfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FMS/futm.
 )
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 94.
-LaTeX Font Info:    Try loading font information for FMX+futm on input line 94.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 95.
+LaTeX Font Info:    Try loading font information for FMX+futm on input line 95.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/fourier/fmxfutm.fd
 File: fmxfutm.fd futm-extension
 )
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 94.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 94.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 95.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 95.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Try loading font information for T1+futs on input line 94.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Try loading font information for T1+futs on input line 95.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/fourier/t1futs.fd
 File: t1futs.fd 2004/03/02 Fontinst v1.926 font definitions for T1/futs.
@@ -1547,24 +1547,24 @@ File: siunitx-abbreviations.cfg 2017/08/02 v2.7j siunitx: Abbreviated units
 
 \symgns@font=\mathgroup11
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/futs/m/n --> TS1/futs/bx/n on input line 94.
-Package gensymb Info: Math companion symbols declared on input line 94.
-LaTeX Info: Redefining \degree on input line 94.
-LaTeX Info: Redefining \celsius on input line 94.
+(Font)                  TS1/futs/m/n --> TS1/futs/bx/n on input line 95.
+Package gensymb Info: Math companion symbols declared on input line 95.
+LaTeX Info: Redefining \degree on input line 95.
+LaTeX Info: Redefining \celsius on input line 95.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 94.
-LaTeX Info: Redefining \ohm on input line 94.
-Package gensymb Info: Using \textohm for \ohm on input line 94.
-LaTeX Info: Redefining \micro on input line 94.
-Package gensymb Info: Using \textmu for \micro on input line 94.
+erthousand on input line 95.
+LaTeX Info: Redefining \ohm on input line 95.
+Package gensymb Info: Using \textohm for \ohm on input line 95.
+LaTeX Info: Redefining \micro on input line 95.
+Package gensymb Info: Using \textmu for \micro on input line 95.
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.15} into 
 your preamble.
- on input line 94.
+ on input line 95.
 
 \AtBeginShipoutBox=\box76
-Package hyperref Info: Link coloring ON on input line 94.
+Package hyperref Info: Link coloring ON on input line 95.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -1573,67 +1573,84 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count334
 )
-LaTeX Info: Redefining \ref on input line 94.
-LaTeX Info: Redefining \pageref on input line 94.
-LaTeX Info: Redefining \nameref on input line 94.
+LaTeX Info: Redefining \ref on input line 95.
+LaTeX Info: Redefining \pageref on input line 95.
+LaTeX Info: Redefining \nameref on input line 95.
 
-(./phys51hw4.out) (./phys51hw4.out)
+(./phys51hw5.out) (./phys51hw5.out)
 \@outlinefile=\write6
-\openout6 = `phys51hw4.out'.
+\openout6 = `phys51hw5.out'.
 
 \c__siunitx_mathsf_int=\count335
-LaTeX Font Info:    Try loading font information for FML+futmi on input line 94
+LaTeX Font Info:    Try loading font information for FML+futmi on input line 95
 .
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/fourier/fmlfutmi.fd
 File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
 )
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 94.
+(Font)              scaled to size 10.07397pt on input line 95.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 94.
+(Font)              scaled to size 7.63599pt on input line 95.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 94.
+(Font)              scaled to size 5.51999pt on input line 95.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 94.
+(Font)              scaled to size 10.07397pt on input line 95.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 94.
+(Font)              scaled to size 7.63599pt on input line 95.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 94.
-LaTeX Font Info:    Try loading font information for U+msa on input line 94.
+(Font)              scaled to size 5.51999pt on input line 95.
+LaTeX Font Info:    Try loading font information for U+msa on input line 95.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 94.
+LaTeX Font Info:    Try loading font information for U+msb on input line 95.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+wasy on input line 94.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 95.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 94.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 95.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for TS1+futs on input line 94.
+LaTeX Font Info:    Try loading font information for TS1+futs on input line 95.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/fourier/ts1futs.fd
 File: ts1futs.fd 2004/03/26 Fontinst v1.926 font definitions for TS1/futs.
 )
 \c__siunitx_mathtt_int=\count336
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 11.03998pt on input line 97.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 97.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.43999pt on input line 97.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 11.03998pt on input line 97.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 97.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.43999pt on input line 97.
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--100
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
 
  []
 
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 100.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 101.
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
+
+ []
+
 [1
 
 
@@ -1641,92 +1658,50 @@ LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10.95> not available
 \providecommand\tcolorbox@label[2]{}
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 132--132
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
 
  []
 
-<prob2.png, id=20, 275.0275pt x 196.735pt>
+<prob2.png, id=20, 299.1175pt x 163.61125pt>
 File: prob2.png Graphic file (type png)
 <use prob2.png>
-Package pdftex.def Info: prob2.png  used on input line 141. on input line 141.
-Package pdftex.def Info: Requested size: 137.51341pt x 98.36725pt on input line
- 141.
+Package pdftex.def Info: prob2.png  used on input line 126. on input line 126.
+Package pdftex.def Info: Requested size: 194.42406pt x 106.34604pt on input lin
+e 126.
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--148
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
 
 [2
 
  <./prob2.png>]
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <8.3> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 167.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <6> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 167.
- [3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 210--210
-
- []
-
-LaTeX Font Info:    Font shape `TS1/futs/bx/n' in size <10.95> not available
-(Font)              Font shape `TS1/futs/b/n' tried instead on input line 210.
-[5
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 254--254
-
- []
-
-[6
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 290--290
-
- []
-
-<prob5.png, id=57, 543.02875pt x 224.84pt>
-File: prob5.png Graphic file (type png)
-<use prob5.png>
-Package pdftex.def Info: prob5.png  used on input line 297. on input line 297.
-Package pdftex.def Info: Requested size: 271.5137pt x 112.41972pt on input line
- 297.
-[7
-
- <./prob5.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 320--320
-
- []
-
-[8
-
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 366.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 366.
- (./phys51hw4.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 366.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 366.
-Package rerunfilecheck Info: File `phys51hw4.out' has not changed.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 137.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 137.
+ (./phys51hw5.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 137.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 137.
+Package rerunfilecheck Info: File `phys51hw5.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 43575 strings out of 492990
- 1017575 string characters out of 6132637
- 1195099 words of memory out of 5000000
- 46461 multiletter control sequences out of 15000+600000
- 584741 words of font info for 94 fonts, out of 8000000 for 9000
+ 43576 strings out of 492990
+ 1017708 string characters out of 6132637
+ 1181099 words of memory out of 5000000
+ 46489 multiletter control sequences out of 15000+600000
+ 593956 words of font info for 124 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,13n,100p,10466b,824s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,5n,100p,10466b,714s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2017/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/local/t
 exlive/2017/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/local/
 texlive/2017/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/local/t
 exlive/2017/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/
 2017/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2017/te
 xmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on phys51hw4.pdf (8 pages, 108947 bytes).
+Output written on phys51hw5.pdf (2 pages, 67378 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
- 86 compressed objects within 1 object stream
- 34 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 50 PDF objects out of 1000 (max. 8388607)
+ 38 compressed objects within 1 object stream
+ 7 named destinations out of 1000 (max. 500000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
