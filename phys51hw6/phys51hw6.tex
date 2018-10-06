@@ -1,0 +1,188 @@
+\documentclass[11pt]{article}
+\include{header} % Download this file from physics.hmc.edu/motion/ page
+\usepackage{tikz}
+
+\usetikzlibrary{arrows,calc}
+                	\tikzset{%
+                         every picture/.style={>=stealth'},
+                                        vel/.style={->,line width=2pt,color=DarkBlue},
+                  force/.style={line width=1.5pt,color=blue,->},
+                  coord/.style={color=green!40!black,|->},
+                  accel/.style={->,line width=3pt,color=gray},
+                  photon/.style={line width=1.5pt,color=DarkRed,decorate,decoration={snake,post length=0.1in}},
+                  spring/.style={decorate,decoration={coil,aspect=0.3,segment length=2mm,amplitude=2mm}},
+                  traj/.style={dashed, color=gray, line width=1pt}
+                }
+                
+\usepackage{fullpage}
+\setlength{\parskip}{6pt}
+\setlength{\parindent}{0pt}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{marvosym}
+\usepackage{amssymb}
+\usepackage{wasysym}
+\usepackage{gensymb}
+\usepackage{mathrsfs}
+\usepackage{scrextend}
+\usepackage{mathtools}
+\usepackage{pgfplots}
+\usepackage{xspace}
+\usepackage[colorlinks]{hyperref}
+
+% --- style --- %
+\renewcommand{\labelenumi}{{ (\alph{enumi})}}
+\newcommand{\sand}{\quad \mbox{ and } \quad}
+\newcommand{\be}{\begin{enumerate}[a) ]}
+\newcommand{\ee}{\end{enumerate}}
+\def\bal#1\eal{\begin{align*}#1\end{align*}}
+\allowdisplaybreaks
+
+% --- making \xi look less awful --- %
+\DeclareSymbolFont{CMletters}{OML}{cmm}{m}{it}
+\DeclareMathSymbol{\xi}{\mathord}{CMletters}{"18}
+
+% --- math --- %
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\Q}{\mathbb{Q}}
+
+
+\newcommand{\Lt}[1]{\mathcal{L}\crb{#1}}
+\newcommand{\ilt}[1]{\mathcal{L}^{-1}\crb{#1}}
+
+\newcommand{\pn}[1]{\left( #1 \right)}
+\newcommand{\sqb}[1]{\left[ #1 \right]}
+\newcommand{\crb}[1]{\left\{ #1 \right\}}
+\newcommand{\lra}[1]{\left\langle #1 \right\rangle}
+\newcommand{\magn}[1]{\left\lVert #1 \right\rVert}
+
+\def\multiset#1#2{\ensuremath{\left(\kern-.3em\left(\genfrac{}{}{0pt}{}{#1}{#2}\right)\kern-.3em\right)}}
+
+\newcommand{\pdr}[2]{\frac{\partial #1}{\partial #2}}
+\newcommand{\im}[1]{\text{im}\pn{#1}}
+\newcommand{\m}[1]{\Z/#1\Z}
+
+
+\DeclareMathOperator{\proj}{proj}
+\newcommand{\vectorproj}[2][]{\proj_{\VEC{#1}}\VEC{#2}}
+
+\newenvironment{amatrix}[1]{%
+  \left(\begin{array}{@{}*{#1}{c}|c@{}}
+}{%
+  \end{array}\right)
+}
+
+\makeatletter
+\renewcommand*\env@matrix[1][*\c@MaxMatrixCols c]{%
+  \hskip -\arraycolsep
+  \let\@ifnextchar\new@ifnextchar
+  \array{#1}}
+\makeatother
+
+\newcommand{\spn}[1]{\text{span}\pn{#1}}
+
+\newcommand*\Heq{\ensuremath{\overset{\kern2pt H}{=}}}
+
+\newcommand{\distil}{\sqrt{1-v^2/c^2}}
+\newcommand{\distilf}[1]{\sqrt{1-(#1)^2}}
+\newcommand{\lorentz}{\frac{1}{\distil}}
+\newcommand{\lorentzf}[1]{\frac{1}{\sqrt{1-(#1)^2}}}
+
+
+\begin{document}
+
+\noindent{\large Problem Set 6, 15 October 2018\hfill Name: \underline{\hspace{3cm}} ,  Section: \underline{\hspace{5mm}} }
+\vspace*{0.25in}
+
+
+\begin{problem}[(P32.6)]
+The figure below shows an arrangement used to measure the masses of ions. An ion of mass $m$ and charge $+q$ is produced essentially at rest in
+source $S$, a chamber in which a gas discharge is taking place. The ion is accelerated by potential difference $\Delta V$ and allowed to enter a magnetic field
+$\vec{B}$. In the field, it moves in a semicircle, striking a photographic plate at distance $x$ from the entry slit. Show that the ion mass $m$ is given by 
+\[
+	m=\frac{B^2q}{8\Delta V}x^2.
+\]
+\begin{center}
+\includegraphics[scale=0.4]{prob1.png}
+\end{center}
+\end{problem}
+
+
+% Your solution starts here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textbf{Solution:}\\
+
+\clearpage
+% Your solution ends here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{problem}[(E33.24)*]
+The figure below shows a long wire carrying a current $i_1$. The rectangular loop carries a current $i_2$. Calculate the resultant force acting on the loop. Assume that $a=\val{1.10}{cm}$, $b=\val{9.20}{cm}$, $L=\val{32.3}{cm}$, $i_1=\val{28.6}{A}$, and $i_2=\val{21.8}{A}$.	
+\begin{center}
+\includegraphics[scale=0.5]{prob2.png}
+\end{center}
+\end{problem}
+
+
+% Your solution starts here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textbf{Solution:}\\
+
+\clearpage
+% Your solution ends here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{problem}[3.]
+Consider a rectangular wire loop of sides $a$ and $b$,
+carrying current $i$. The loop is oriented as shown,
+with its normal direction at an angle $\theta$ to a
+constant magnetic field $\vec{B}$. Calculate the torque
+exerted on the loop around its center, and show
+that the result can be written as $\vec{\tau}=\vec{\mu} \times \vec{B}$ where $\vec{\mu}$
+is defined as the dipole moment of the loop, equal
+to $i A\hat{\textbf{n}}$ where $A$ is the area of the loop. (It turns
+out this relationship holds for loops of \textit{any} shape.)
+\textit{This result may be useful in Problem 4!}
+\begin{center}
+\includegraphics[scale=0.4]{prob3.png}
+\end{center}
+\end{problem}
+
+
+% Your solution starts here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textbf{Solution:}\\
+
+\clearpage
+% Your solution ends here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{problem}[(P32.19)]
+The figure below shows a wooden cylinder with a mass $m=\val{262}{g}$ and a length $L=\val{12.7}{cm}$, with $N=13$ turns of wire wrapped around it longitudinally, so
+that the plane of the wire loop contains the axis of the cylinder. What is the least current through the loop that will prevent the cylinder from rolling down a plane inclined at an angle $\theta$ to the horizontal, in the presence of a vertical, uniform magnetic field of $\val{477}{mT}$, if the plane of the windings is parallel to the inclined plane?
+\begin{center}
+\includegraphics[scale=0.4]{prob4.png}
+\end{center}
+\end{problem}
+
+
+% Your solution starts here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textbf{Solution:}\\
+
+\clearpage
+% Your solution ends here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{problem}[\P(E33.13)]
+Consider the circuit of the figure below. The curved segments are arcs of circles of radii $a$ and $b$. The straight segments are along the radii. Find the magnetic field $\vec{B}$ at
+$P$, assuming a current $i$ in the circuit.
+\begin{center}
+\includegraphics[scale=0.4]{prob5.png}
+\end{center}
+\end{problem}
+
+
+% Your solution starts here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textbf{Solution:}\\
+
+\clearpage
+% Your solution ends here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\end{document}
