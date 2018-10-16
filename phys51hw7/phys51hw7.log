@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.4)  15 OCT 2018 21:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.4)  15 OCT 2018 21:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1666,8 +1666,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 118--118
 File: prob2.png Graphic file (type png)
 <use prob2.png>
 Package pdftex.def Info: prob2.png  used on input line 123. on input line 123.
-Package pdftex.def Info: Requested size: 168.62958pt x 61.73045pt on input line
- 123.
+Package pdftex.def Info: Requested size: 202.35756pt x 74.0773pt on input line 
+123.
 
 Underfull \hbox (badness 10000) in paragraph at lines 129--130
 
@@ -1699,7 +1699,7 @@ exlive/2017/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/local/te
 xlive/2017/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/2
 017/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2017/tex
 mf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on phys51hw7.pdf (2 pages, 65891 bytes).
+Output written on phys51hw7.pdf (2 pages, 65894 bytes).
 PDF statistics:
  50 PDF objects out of 1000 (max. 8388607)
  37 compressed objects within 1 object stream
