@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.4)  29 OCT 2018 00:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.4)  1 NOV 2018 16:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1738,32 +1738,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 222--223
 [6
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 227--227
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 243--244
-
- []
-
-[7
-
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 250.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 250.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 228.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 228.
  (./phys51hw9-git.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 250.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 250.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 228.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 228.
 Package rerunfilecheck Info: File `phys51hw9-git.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 43622 strings out of 492990
- 1018208 string characters out of 6132637
- 1182104 words of memory out of 5000000
+ 43615 strings out of 492990
+ 1018148 string characters out of 6132637
+ 1182107 words of memory out of 5000000
  46500 multiletter control sequences out of 15000+600000
- 594837 words of font info for 128 fonts, out of 8000000 for 9000
+ 594420 words of font info for 126 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,5n,100p,10470b,714s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
@@ -1774,10 +1762,10 @@ exlive/2017/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/local/te
 xlive/2017/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/2
 017/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2017/tex
 mf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on phys51hw9-git.pdf (7 pages, 97132 bytes).
+Output written on phys51hw9-git.pdf (6 pages, 95103 bytes).
 PDF statistics:
- 112 PDF objects out of 1000 (max. 8388607)
- 89 compressed objects within 1 object stream
- 36 named destinations out of 1000 (max. 500000)
+ 102 PDF objects out of 1000 (max. 8388607)
+ 80 compressed objects within 1 object stream
+ 31 named destinations out of 1000 (max. 500000)
  28 words of extra memory for PDF output out of 10000 (max. 10000000)
 
