@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.4)  1 NOV 2018 16:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.4)  1 NOV 2018 16:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1762,7 +1762,7 @@ exlive/2017/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/local/te
 xlive/2017/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/2
 017/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2017/tex
 mf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on phys51hw9-git.pdf (6 pages, 95103 bytes).
+Output written on phys51hw9-git.pdf (6 pages, 94945 bytes).
 PDF statistics:
  102 PDF objects out of 1000 (max. 8388607)
  80 compressed objects within 1 object stream
