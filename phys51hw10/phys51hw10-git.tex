@@ -1,0 +1,213 @@
+\documentclass[11pt]{article}
+\include{header} % Download this file from physics.hmc.edu/motion/ page
+\usepackage{tikz}
+
+\usetikzlibrary{arrows,calc}
+                	\tikzset{%
+                         every picture/.style={>=stealth'},
+                                        vel/.style={->,line width=2pt,color=DarkBlue},
+                  force/.style={line width=1.5pt,color=blue,->},
+                  coord/.style={color=green!40!black,|->},
+                  accel/.style={->,line width=3pt,color=gray},
+                  photon/.style={line width=1.5pt,color=DarkRed,decorate,decoration={snake,post length=0.1in}},
+                  spring/.style={decorate,decoration={coil,aspect=0.3,segment length=2mm,amplitude=2mm}},
+                  traj/.style={dashed, color=gray, line width=1pt}
+                }
+                
+\usepackage{fullpage}
+\setlength{\parskip}{6pt}
+\setlength{\parindent}{0pt}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{marvosym}
+\usepackage{amssymb}
+\usepackage{wasysym}
+\usepackage{gensymb}
+\usepackage{mathrsfs}
+\usepackage{scrextend}
+\usepackage{mathtools}
+\usepackage{pgfplots}
+\usepackage{xspace}
+\usepackage[colorlinks]{hyperref}
+
+% --- style --- %
+\renewcommand{\labelenumi}{{ (\alph{enumi})}}
+\newcommand{\sand}{\quad \mbox{ and } \quad}
+\newcommand{\be}{\begin{enumerate}[a) ]}
+\newcommand{\ee}{\end{enumerate}}
+\def\bal#1\eal{\begin{align*}#1\end{align*}}
+\allowdisplaybreaks
+
+% --- making \xi look less awful --- %
+\DeclareSymbolFont{CMletters}{OML}{cmm}{m}{it}
+\DeclareMathSymbol{\xi}{\mathord}{CMletters}{"18}
+
+% --- math --- %
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\Q}{\mathbb{Q}}
+
+
+\newcommand{\Lt}[1]{\mathcal{L}\crb{#1}}
+\newcommand{\ilt}[1]{\mathcal{L}^{-1}\crb{#1}}
+
+\newcommand{\pn}[1]{\left( #1 \right)}
+\newcommand{\sqb}[1]{\left[ #1 \right]}
+\newcommand{\crb}[1]{\left\{ #1 \right\}}
+\newcommand{\lra}[1]{\left\langle #1 \right\rangle}
+\newcommand{\magn}[1]{\left\lVert #1 \right\rVert}
+
+\def\multiset#1#2{\ensuremath{\left(\kern-.3em\left(\genfrac{}{}{0pt}{}{#1}{#2}\right)\kern-.3em\right)}}
+
+\newcommand{\pdr}[2]{\frac{\partial #1}{\partial #2}}
+\newcommand{\pdrr}[2]{\frac{\partial^2 #1}{\partial #2^2}}
+\newcommand{\im}[1]{\text{im}\pn{#1}}
+\newcommand{\m}[1]{\Z/#1\Z}
+
+
+\DeclareMathOperator{\proj}{proj}
+\newcommand{\vectorproj}[2][]{\proj_{\VEC{#1}}\VEC{#2}}
+
+\newenvironment{amatrix}[1]{%
+  \left(\begin{array}{@{}*{#1}{c}|c@{}}
+}{%
+  \end{array}\right)
+}
+
+\makeatletter
+\renewcommand*\env@matrix[1][*\c@MaxMatrixCols c]{%
+  \hskip -\arraycolsep
+  \let\@ifnextchar\new@ifnextchar
+  \array{#1}}
+\makeatother
+
+\newcommand{\spn}[1]{\text{span}\pn{#1}}
+
+\newcommand*\Heq{\ensuremath{\overset{\kern2pt H}{=}}}
+
+\newcommand{\distil}{\sqrt{1-v^2/c^2}}
+\newcommand{\distilf}[1]{\sqrt{1-(#1)^2}}
+\newcommand{\lorentz}{\frac{1}{\distil}}
+\newcommand{\lorentzf}[1]{\frac{1}{\sqrt{1-(#1)^2}}}
+
+
+\begin{document}
+
+\noindent{\large Problem Set 10, 19 November 2018\hfill Name: \underline{\hspace{3cm}} ,  Section: \underline{\hspace{5mm}} }
+\vspace*{0.25in}
+
+
+\begin{problem}[Supplementary Problem 4]
+In a material of non-zero electrical resisitivity $\rho$, the relationship between electric field and current
+density is $\VEC{E} = \rho\VEC{j}$. For copper, $\rho = 2 \times 10^{-8} \Omega m$. A copper wire with a circular cross-sectional area
+of $4 \text{ mm}^2$ carries a current of 40 A.
+\be
+\item What is the longitudinal electric field (field along the length of the wire) in the copper?
+\item If the current is changing at a rate of 5000 A/s, at what rate is $\VEC{E}$ changing, and what is the
+resulting displacement current?
+\item Does the displacement current contribute significantly to the magnetic field outside the wire?
+Explain your answer.
+\ee
+\end{problem}
+
+
+% Your solution starts here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textbf{Solution:}\\
+
+\clearpage
+% Your solution ends here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{problem}[(E38.16)*]
+The electric field associated with a plane electromagnetic wave is given by $E_x = 0, E_y = 0,
+E_z = E_0 \sin k(x-ct)$, where $E_0 = 2.34 \times 10^{-4}$ V/m and $k = 9.72 \times 10^6$/m. The wave is propagating
+in the $+x$ direction.
+\be
+\item Write expressions for the components of the magnetic field of the wave.
+\item Find the wavelength of the wave.
+\ee
+\end{problem}
+
+
+% Your solution starts here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textbf{Solution:}\\
+
+\clearpage
+% Your solution ends here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{problem}[Supplementary Problem 5]
+\be
+\item Consider an electromagnetic wave in a vacuum with electric field $\VEC{E} = E_0\VEC{\hat{y}} \sin(kx-\omega t)$. What
+is the propagation direction of this electromagnetic wave?
+\item Consider an electromagnetic wave with electric field $\VEC{E} = E_0\VEC{\hat{y}} \sin(kx + \omega t)$. What is the
+propagation direction of this electromagnetic wave?
+\item Consider the electric field $\VEC{E} = E_0\VEC{\hat{y}} [\sin(kx - \omega t) + \sin(kx + \omega t)]$. Show that this electric field
+satisfies the wave equation
+\[
+	\pdrr{\VEC{E}}{x} + \pdrr{\VEC{E}}{y} + \pdrr{\VEC{E}}{z} = \frac{1}{V^2}\pdrr{\VEC{E}}{t},
+\]
+provided the constants $k$ and $\omega$ are related as in part (a).
+\ee
+\end{problem}
+
+
+% Your solution starts here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textbf{Solution:}\\
+
+\clearpage
+% Your solution ends here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{problem}[\P(P38.5) \textit{(3 points)}]
+A cube of edge $a$ has its edges parallel to the $x$, $y$, and $z$ axes of a rectangular coordinate system.
+A uniform electric field $\VEC{E}$ is parallel to the $y$ axis and a uniform magnetic field $\VEC{B}$ is parallel to the
+$x$ axis. Calculate
+\be
+\item the rate at which, according to the Poynting vector point of view, energy may be said to pass
+through each face of the cube and
+\item the net rate at which the energy stored in the cube may be said to change.
+\ee
+\end{problem}
+
+
+% Your solution starts here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textbf{Solution:}\\
+
+\clearpage
+% Your solution ends here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{problem}[\P(E38.22) \textit{(2 points)}]
+A plane electromagnetic wave is traveling in the negative $y$ direction. At a particular position and
+time, the magnetic field is along the positive $z$ axis and has a magnitude of 28 nT. What are the
+direction and magnitude of the electric field at that position and at that time?
+\end{problem}
+
+
+% Your solution starts here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textbf{Solution:}\\
+
+\clearpage
+% Your solution ends here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{problem}[\P (P38.13)]
+A plane electromagnetic wave, with wavelength 3.18 m, travels in free space in the $+x$ direction
+with its electric vector $\VEC{E}$, of amplitude 288 V/m, directed along the $y$ axis.
+\be
+\item What is the frequency of the wave?
+\item What is the direction and amplitude of the magnetic field associated with the wave?
+\item If $\VEC{E} = E_m \sin(kx - \omega t)$, what are the values of $k$ and $\omega$?
+\item Find the intensity of the wave.
+\item If the wave falls on a perfectly absorbing sheet of area $1.85 \text{ m}^2$, at what rate would momentum
+be delivered to the sheet and what is the radiation pressure exerted on the sheet?
+\ee
+\end{problem}
+
+
+% Your solution starts here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textbf{Solution:}\\
+
+\clearpage
+% Your solution ends here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\end{document}
